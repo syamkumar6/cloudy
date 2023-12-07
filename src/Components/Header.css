@@ -1,0 +1,27 @@
+header{
+    height: 7rem;
+    padding: 0 2.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 9, 75);
+    border-bottom: 1px solid gray;
+}
+#logo{
+    width: 4rem;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.navList a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
